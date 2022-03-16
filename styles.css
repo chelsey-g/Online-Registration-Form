@@ -221,8 +221,11 @@
         
         @media (min-width: 768px) {
             form {
-                display: inline-block;
-                vertical-align: middle;
+                margin: auto;
+                width: 700px;
+            }
+            fieldset {
+                margin-bottom: 50px;
             }
             input {
                 width: 75%;
@@ -244,10 +247,8 @@
                 background-color: #e7e9eb;
                 padding: 15px;
                 font-size: 13px;
-                margin-left: auto;
-                margin-right: auto;
                 margin-top: 15px;
-                width: 600px;
+                width: 100%;
             }
             .submit {
                 background-color: #5e3c58;
