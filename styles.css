@@ -71,6 +71,7 @@
             border-width: 0 0 1px 0;
             border-style: solid;
             padding-top: 2px;
+            margin-bottom: 50px;
             margin: 2px;
         }
         
@@ -114,7 +115,7 @@
         }
         
         input[id=zip] {
-            width: 100px;
+            width: 50%;
             flex-grow: 0;
         }
         
@@ -223,9 +224,6 @@
             form {
                 margin: auto;
                 width: 700px;
-            }
-            fieldset {
-                margin-bottom: 50px;
             }
             input {
                 width: 75%;
